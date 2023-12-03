@@ -62,19 +62,19 @@ function registerCustomBlocksForGregtech(event) {
     'alltheores:endstone_aluminum_ore'
   ]
   
-  ores_stone.forEach(function(v_ore) {
+  ores_stone.forEach((v_ore) => {
     register_greg_ore(event,"stone",v_ore)
   });
 
-  ores_deepslate.forEach(function(v_ore) {
+  ores_deepslate.forEach((v_ore) => {
     register_greg_ore(event,"deepslate",v_ore)
   });
 
-  ores_nether.forEach(function(v_ore) {
+  ores_nether.forEach((v_ore) => {
     register_greg_ore(event,"netherrack",v_ore)
   });
 
-  ores_end.forEach(function(v_ore) {
+  ores_end.forEach((v_ore) => {
     register_greg_ore(event,"endstone",v_ore)
   });
 }
@@ -140,11 +140,6 @@ ServerEvents.tags('block', event => {
     'allthetweaks:atm_star_block'
   ])
 
-  event.add('gtceu:doughnut_mk3', 'gtceu:uv_fusion_reactor')
-
-
-  registerCustomBlocksForGregtech(event)
-  
 })
 
 ServerEvents.tags('fluid', event => {

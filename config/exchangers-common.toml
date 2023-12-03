@@ -508,7 +508,7 @@
 	#Note: Blacklisting a block will prevent it from being selected or being exchanged.
 	#Separate each entry with semicolon.
 	#(e.g. "minecraft:grass;minecraft:cake;minecraft:dragon_egg")
-	blocksBlacklist = ""
+	blocksBlacklist = "voidscape:voidic_crystal_ore;voidscape:thunderrock;voidscape:thunder_nylium"
 	#If true, allows the Holding Enchantment from CoFH Core to be used on Powered Exchangers
 	#Calculation formula: Base Energy + (Base Energy * Enchantment Level / 2)
 	holdingEnchantment = true
